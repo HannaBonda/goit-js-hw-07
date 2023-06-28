@@ -1,3 +1,4 @@
+
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
@@ -8,8 +9,6 @@ const galleryContainer = document.querySelector(".gallery");
   <img class = "gallery__image" src = "${preview}" alt = "${description}"/>
   </a> 
   </li>`).join('');
-
-
 
  galleryContainer.insertAdjacentHTML('beforeend', createGalery);
 
